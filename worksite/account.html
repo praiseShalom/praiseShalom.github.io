@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title>Cy Currency</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" type="text/css" href="../worksite/css/w3.css.css">
+<link rel="stylesheet" type="text/css" href="web.html">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/4.jpg");
+    min-height: 99%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="web.html" class="w3-button w3-block w3-black w3-large"><hr>HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black"></a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black"></a>
+    </div>
+  </div>
+  <div class="w3-col s3 w3-display-topright w3-large">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">MENU<hr></button></p>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open 24/7</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-blue" style="font-size:90px">Cy Currency</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Westlands, Nairobi</span>
+  </div>
+</header>
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Starters</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Storage<b>$2.50</b></h5>
+      <h5>Emails<b>$3.50</b></h5>
+      <h5>Handles <b>$1.00</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Members</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Storage <b>$8.50</b></h5>
+      <h5>Emails<b>$5.50</b></h5>
+      <h5>Handles<b>$4.00</b></h5>
+      <h5>Endless Support <b>$6.50</b></h5>
+      <h5>Deluxe Card<b>$5.00</b></h5>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+</body>
+</html>
